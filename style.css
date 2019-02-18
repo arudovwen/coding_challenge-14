@@ -5,15 +5,25 @@
 
 body {
     margin: 20px 0;
+    background-image: url(./images/pain.jpg);
+    background-size: 120%;
 
 }
+.board{
+    background: fuchsia;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 5px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  
+}
 .grid{
-    max-width: 500px;
+    max-width: 550px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    perspective: 1000px;
+    perspective: 1000px;  
 }
 
 
@@ -27,6 +37,9 @@ body {
     position: relative;
     transition: transform 0.4s;
     transform-style: preserve-3d;
+    box-shadow:rgba(0,0,0,0.8) 0px 3px 8px, inset rgba(0,0,0,0.15) 0px -5px 10px;
+    
+    
 
 
 }
